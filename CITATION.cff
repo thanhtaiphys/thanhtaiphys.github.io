@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Thanh-Tai Duong Academic Profile"
+message: "If you use information from this academic profile, please cite the relevant publication or resource listed on the website."
+type: software
+authors:
+  - family-names: Duong
+    given-names: Thanh-Tai
+    orcid: "https://orcid.org/0000-0001-7276-8105"
+repository-code: "https://github.com/thanhtaiphys/thanhtaiphys.github.io"
+url: "https://thanhtaiphys.github.io/"
+website: "https://thanhtaiphys.github.io/"
+keywords:
+  - medical physics
+  - radiation therapy
+  - medical imaging
+  - Monte Carlo dosimetry
+  - radiotheranostics
