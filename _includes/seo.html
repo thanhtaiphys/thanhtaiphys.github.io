@@ -111,6 +111,7 @@ Twitter username (site.twitter.username), matching upstream behavior.
       "@context" : "https://schema.org",
       "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
       "name" : "{{ site.social.name | default: site.name }}",
+      "alternateName" : ["Thanh Tai Duong", "Duong Thanh Tai"],
       "@id" : "{{ seo_url }}#person",
       "url" : {{ seo_url | jsonify }},
       "jobTitle" : "Therapeutic Medical Physicist, Researcher, and Lecturer",

@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "mint" # A calm, modern palette for a research-focused profile.
-title                    : "Thanh-Tai Duong, Ph.D. | Medical Physics & Radiotheranostics"
+title                    : "Thanh Tai Duong (Thanh-Tai Duong), Ph.D. | Medical Physicist & Researcher"
 title_separator          : "-"
 name                     : &name "Thanh-Tai Duong"
-description              : &description "Thanh-Tai Duong is an Iowa-licensed therapeutic medical physicist and researcher working across radiation therapy, quantitative imaging, Monte Carlo dosimetry, and radiotheranostics."
+description              : &description "Thanh Tai Duong, also published as Thanh-Tai Duong, is an Iowa-licensed therapeutic medical physicist and researcher working across radiation therapy, quantitative imaging, Monte Carlo dosimetry, and radiotheranostics."
 url                      : https://thanhtaiphys.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

@@ -2,8 +2,8 @@
 permalink: /
 title: ""
 author_profile: true
-description: "Academic profile of Thanh-Tai Duong, Ph.D., a therapeutic medical physicist and researcher in radiation therapy, imaging, Monte Carlo dosimetry, and radiotheranostics."
-excerpt: "Academic profile of Thanh-Tai Duong, Ph.D., a therapeutic medical physicist and researcher in radiation therapy, imaging, Monte Carlo dosimetry, and radiotheranostics."
+description: "Academic profile of Thanh Tai Duong (published as Thanh-Tai Duong), Ph.D., a therapeutic medical physicist and researcher in radiation therapy, imaging, Monte Carlo dosimetry, and radiotheranostics."
+excerpt: "Academic profile of Thanh Tai Duong (published as Thanh-Tai Duong), Ph.D., a therapeutic medical physicist and researcher in radiation therapy, imaging, Monte Carlo dosimetry, and radiotheranostics."
 ---
 
 <section class="profile-hero">
@@ -11,7 +11,7 @@ excerpt: "Academic profile of Thanh-Tai Duong, Ph.D., a therapeutic medical phys
   <p class="hero-role">Therapeutic Medical Physicist · Researcher · Lecturer</p>
   <p class="hero-affiliations">Spencer Hospital · Western University · Nguyen Tat Thanh University</p>
   <h1>Clinical physics and quantitative research for better radiation care.</h1>
-  <p class="hero-lede">I am <strong>Thanh-Tai Duong, Ph.D.</strong>, a medical physicist and researcher working at the intersection of radiation therapy, medical imaging, Monte Carlo simulation, and translational cancer research.</p>
+  <p class="hero-lede">I am <strong>Thanh Tai Duong (published as Thanh-Tai Duong), Ph.D.</strong>, a medical physicist and researcher working at the intersection of radiation therapy, medical imaging, Monte Carlo simulation, and translational cancer research.</p>
   <p class="name-variants"><strong>Publication name variants:</strong> Duong Thanh Tai · Thanh Tai Duong</p>
   <div class="hero-actions">
     <a class="btn btn--primary" href="/research/">Explore my research</a>
