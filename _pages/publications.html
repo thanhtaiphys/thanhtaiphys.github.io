@@ -5,44 +5,25 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+{% assign publication_types = "Journal article|Conference abstract|Proceedings paper" | split: "|" %}
+{% assign publication_headings = "Journal Articles|Conference Abstracts|Proceedings Papers" | split: "|" %}
 
-<section class="full-bibliography">
-  <p class="archive__item-excerpt">All 67 records extracted from the current CV, including journal articles, conference abstracts, and proceedings papers. An asterisk in the CV marks corresponding authorship.</p>
-  <ol start="67" reversed>
+{% for type in publication_types %}
+  {% assign heading_index = forloop.index0 %}
+  <h2>{{ publication_headings[heading_index] }}</h2><hr />
   {% for item in site.data.publications_full %}
-    <li>
-      <strong>{{ item.title }}</strong> ({{ item.year }}).<br />
-      <em>{{ item.type }} · {{ item.venue }}</em>{% if item.doi %} · <a href="https://doi.org/{{ item.doi }}">DOI</a>{% endif %}
-    </li>
+    {% if item.type != type %}
+      {% continue %}
+    {% endif %}
+    <div class="archive__item">
+      <h3 class="archive__item-title">
+        {% if item.doi %}<a href="https://doi.org/{{ item.doi }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+      </h3>
+      <p>Published in <em>{{ item.venue }}</em>, {{ item.year }}</p>
+      {% if item.doi %}<p><a href="https://doi.org/{{ item.doi }}">Download Paper</a></p>{% endif %}
+    </div>
   {% endfor %}
-  </ol>
-</section>
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% endfor %}
 
 
 
