@@ -12,7 +12,7 @@ site_theme               : "mint" # A calm, modern palette for a research-focuse
 title                    : "Thanh-Tai Duong, Ph.D. | Medical Physics & Radiotheranostics"
 title_separator          : "-"
 name                     : &name "Thanh-Tai Duong"
-description              : &description "Medical physicist and researcher working across radiation therapy, medical imaging, Monte Carlo simulation, and radiotheranostics."
+description              : &description "Iowa-licensed therapeutic medical physicist and researcher working across radiation therapy, quantitative imaging, Monte Carlo dosimetry, and radiotheranostics."
 url                      : https://thanhtaiphys.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,11 +26,11 @@ author:
   avatar           : "duong-monogram.svg"
   name             : "Thanh-Tai Duong, Ph.D."
   pronouns         : # example: "she/her"  
-  bio              : "Medical Physicist · Research Associate · Lecturer"
+  bio              : "Therapeutic Medical Physicist · Research Associate · Lecturer"
   location         : "Iowa, United States"
   employer         : "Spencer Hospital · Western University · Nguyen Tat Thanh University"
   uri              : "https://sites.google.com/view/drduongthanhtai/home"
-  email            : "tduong28@uwo.ca"
+  email            : "thanhtai.duong@spencerhospital.org"
 
   # Academic websites
   academia         : # URL
@@ -144,7 +144,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : og-image.png   # Social media default site image (lives in /images/)
-og_description           : "Research in medical physics, radiation therapy, medical imaging, and radiotheranostics."
+og_description           : "Research in radiation therapy, quantitative imaging, Monte Carlo dosimetry, and radiotheranostics."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
