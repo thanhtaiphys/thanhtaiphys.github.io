@@ -3,17 +3,18 @@ layout: single
 title: "Research"
 permalink: /research/
 author_profile: true
+description: "Research by Thanh-Tai Duong in radiation therapy physics, quantitative imaging, Monte Carlo dosimetry, and radiotheranostics."
 ---
 
-My research connects **clinical medical physics** with computational modeling and translational cancer science. I am especially interested in methods that can move from a simulation, a commissioning test, or an imaging study into a workflow that clinicians can trust.
+My research connects **clinical medical physics** with computational modeling and translational cancer science. I am especially interested in methods that can move from a simulation, a commissioning test, or an imaging study into a workflow that can be evaluated rigorously in a clinical environment.
 
 ## Current directions
 
 ### Personalized radiotheranostics
-Developing patient-specific dosimetry for targeted radionuclide therapy, including PET-derived time-integrated activity, Monte Carlo voxel dose calculations, and combination strategies with external beam radiotherapy for prostate cancer.
+Developing patient-specific dosimetry for targeted radionuclide therapy, including PET-derived time-integrated activity, Monte Carlo voxel dose calculations, and combination strategies with external beam radiotherapy for prostate cancer. These studies address dosimetric and modeling questions; they do not by themselves establish clinical benefit.
 
 ### Advanced radiotherapy physics
-Improving the accuracy and clinical confidence of Halcyon, IMRT, VMAT, brachytherapy, and CBCT workflows through commissioning, beam modeling, QA, and treatment-plan evaluation.
+Studying Halcyon, IMRT, VMAT, brachytherapy, and CBCT workflows through commissioning, beam modeling, QA, and treatment-plan evaluation. The scope is physics validation and workflow assessment, not a claim of improved patient outcomes.
 
 ### Quantitative imaging and AI
 Building practical approaches for CT/CBCT calibration, image processing, deep-learning-assisted diagnosis, and reproducible measurement in medical imaging.

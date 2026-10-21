@@ -12,7 +12,7 @@ site_theme               : "mint" # A calm, modern palette for a research-focuse
 title                    : "Thanh-Tai Duong, Ph.D. | Medical Physics & Radiotheranostics"
 title_separator          : "-"
 name                     : &name "Thanh-Tai Duong"
-description              : &description "Iowa-licensed therapeutic medical physicist and researcher working across radiation therapy, quantitative imaging, Monte Carlo dosimetry, and radiotheranostics."
+description              : &description "Thanh-Tai Duong is an Iowa-licensed therapeutic medical physicist and researcher working across radiation therapy, quantitative imaging, Monte Carlo dosimetry, and radiotheranostics."
 url                      : https://thanhtaiphys.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -144,13 +144,18 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : og-image.png   # Social media default site image (lives in /images/)
-og_description           : "Research in radiation therapy, quantitative imaging, Monte Carlo dosimetry, and radiotheranostics."
+og_description           : "Academic profile of Thanh-Tai Duong, Ph.D., an Iowa-licensed therapeutic medical physicist and researcher in radiation therapy, quantitative imaging, Monte Carlo dosimetry, and radiotheranostics."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Person"
   name                   : "Thanh-Tai Duong"
-  links: # An array of links to social media profiles
+  links:
+    - "https://orcid.org/0000-0001-7276-8105"
+    - "https://scholar.google.com/citations?hl=en&user=D_fwrx4AAAAJ"
+    - "https://www.linkedin.com/in/drduongthanhtai/"
+    - "https://github.com/thanhtaiphys"
+    - "https://sites.google.com/view/drduongthanhtai/home"
 
 
 # Analytics

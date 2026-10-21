@@ -2,12 +2,15 @@
 permalink: /
 title: ""
 author_profile: true
-excerpt: "Medical physics, imaging, and radiotheranostics"
+description: "Academic profile of Thanh-Tai Duong, Ph.D., a therapeutic medical physicist and researcher in radiation therapy, imaging, Monte Carlo dosimetry, and radiotheranostics."
+excerpt: "Academic profile of Thanh-Tai Duong, Ph.D., a therapeutic medical physicist and researcher in radiation therapy, imaging, Monte Carlo dosimetry, and radiotheranostics."
 ---
 
 <section class="profile-hero">
-  <p class="eyebrow">MEDICAL PHYSICS · RADIATION ONCOLOGY · RADIOTHERANOSTICS</p>
-  <h1>Turning quantitative science into safer, smarter care.</h1>
+  <p class="eyebrow">THANH-TAI DUONG, PH.D.</p>
+  <p class="hero-role">Therapeutic Medical Physicist · Researcher · Lecturer</p>
+  <p class="hero-affiliations">Spencer Hospital · Western University · Nguyen Tat Thanh University</p>
+  <h1>Clinical physics and quantitative research for better radiation care.</h1>
   <p class="hero-lede">I am <strong>Thanh-Tai Duong, Ph.D.</strong>, a medical physicist and researcher working at the intersection of radiation therapy, medical imaging, Monte Carlo simulation, and translational cancer research.</p>
   <div class="hero-actions">
     <a class="btn btn--primary" href="/research/">Explore my research</a>
@@ -19,14 +22,14 @@ excerpt: "Medical physics, imaging, and radiotheranostics"
   <div>
     <p class="section-kicker">CURRENTLY</p>
     <h2>Clinician-minded. Research-driven.</h2>
-    <p>I am a licensed U.S. medical physicist supporting radiation therapy at Spencer Hospital, a Research Associate at Western University, and a lecturer at Nguyen Tat Thanh University.</p>
-    <p>My work is grounded in a simple goal: make advanced imaging and treatment techniques more accurate, more explainable, and more useful in real clinical environments.</p>
+    <p>I am an Iowa-licensed therapeutic medical physicist supporting radiation therapy at Spencer Hospital, a Research Associate at Western University, and a lecturer at Nguyen Tat Thanh University.</p>
+    <p>My work connects clinical implementation with reproducible imaging, dosimetry, and computational methods. I describe results precisely and keep claims tied to the evidence available in each study.</p>
   </div>
   <div class="signal-card">
-    <span class="signal-number">11+</span>
-    <span class="signal-label">years across clinical medical physics, research, and teaching</span>
-    <span class="signal-number">50+</span>
-    <span class="signal-label">peer-reviewed and conference contributions</span>
+    <span class="signal-number">2009</span>
+    <span class="signal-label">year clinical and academic work began</span>
+    <span class="signal-number">67</span>
+    <span class="signal-label">publication records listed in the current CV</span>
   </div>
 </section>
 

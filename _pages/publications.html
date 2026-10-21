@@ -3,6 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+description: "Selected and complete publication records for Thanh-Tai Duong, Ph.D., across medical physics, radiation therapy, imaging, dosimetry, and related radiation science."
 ---
 
 {% assign publication_types = "Journal article|Conference abstract|Proceedings paper" | split: "|" %}
@@ -15,13 +16,14 @@ author_profile: true
     {% if item.type != type %}
       {% continue %}
     {% endif %}
-    <div class="archive__item">
+    <article class="archive__item" id="publication-{{ item.number }}">
       <h3 class="archive__item-title">
         {% if item.doi %}<a href="https://doi.org/{{ item.doi }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
       </h3>
       <p>Published in <em>{{ item.venue }}</em>, {{ item.year }}</p>
-      {% if item.doi %}<p><a href="https://doi.org/{{ item.doi }}">Download Paper</a></p>{% endif %}
-    </div>
+      <p class="publication-meta">Publication record {{ item.number }} in the current CV.</p>
+      {% if item.doi %}<p><a href="https://doi.org/{{ item.doi }}">View paper record via DOI</a></p>{% endif %}
+    </article>
   {% endfor %}
 {% endfor %}
 
