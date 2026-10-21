@@ -1,64 +1,45 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- **Ph.D. in Medical Physics**, VNUHCM–University of Science, Vietnam · 2015–2019
+- **M.Sc. in Nuclear Physics**, VNUHCM–University of Science, Vietnam · 2010–2012
+- **B.Sc. in Applied Physics**, VNUHCM–University of Science, Vietnam · 2005–2009
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Appointments
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Medical Physicist**, Jaeger Corporation / Spencer Hospital, United States · 2025–present
+- **Research Associate**, Western University, Canada · continuing research collaboration
+- **Lecturer**, Nguyen Tat Thanh University, Vietnam · medical physics and biomedical imaging
+- **Postdoctoral Associate**, Robarts Research Institute, Western University, Canada · 2022–2024
+- **Lecturer**, HCMC University of Technology and Education, Vietnam · 2020–2022
+- **Clinical Medical Physicist**, Dong Nai General Hospital, Vietnam · 2009–2020
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Expertise
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Radiation therapy physics · IMRT · VMAT · brachytherapy · Halcyon commissioning · patient-specific QA · CBCT and CT imaging · Monte Carlo simulation · personalized dosimetry · radiotheranostics · image processing · medical physics education
+
+## Training and professional development
+
+International Centre for Theoretical Physics (ICTP) · International Atomic Energy Agency (IAEA) · Hokkaido University · Stanford University · Varian Medical Systems · Hospital-based radiotherapy and brachytherapy training programs
+
+## Selected service
+
+- AUN-QA Criterion 5 oversight and curriculum development in biomedical imaging technology.
+- Supervision and mentorship of undergraduate research and thesis projects.
+- Clinical support for radiation therapy quality assurance, treatment planning, commissioning, and implementation.
+
+## Publications and presentations
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+<p><a class="btn btn--primary" href="/publications/">Browse selected publications →</a></p>
