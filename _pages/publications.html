@@ -9,6 +9,19 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+<section class="full-bibliography">
+  <h2>Complete bibliography from current CV</h2>
+  <p class="archive__item-excerpt">All 67 records extracted from the current CV, including journal articles, conference abstracts, and proceedings papers. An asterisk in the CV marks corresponding authorship.</p>
+  <ol>
+  {% for item in site.data.publications_full %}
+    <li>
+      <strong>{{ item.title }}</strong> ({{ item.year }}).<br />
+      <em>{{ item.type }} · {{ item.venue }}</em>{% if item.doi %} · <a href="https://doi.org/{{ item.doi }}">DOI</a>{% endif %}
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->

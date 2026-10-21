@@ -1,0 +1,391 @@
+- number: 67
+  year: 2026
+  type: Journal article
+  title: "Clinical applications of the Halcyon O-ring linear accelerator in radiation therapy: a systematic review of treatment efficacy, workflow efficiency, and imaging integration"
+  venue: "Physica Medica, 150, 107206"
+  doi: "10.1016/j.ejmp.2026.107206"
+- number: 66
+  year: 2026
+  type: Proceedings paper
+  title: "Optimization of proton energy and target thickness for cyclotron-based 18F production: An ISOTOPIA simulation study"
+  venue: "Journal of Physics: Conference Series, 3284, 012027"
+  doi: "10.1088/1742-6596/3284/1/012027"
+- number: 65
+  year: 2026
+  type: Journal article
+  title: "Evaluation of multi-layer shielding effectiveness against high-energy protons and secondary radiation in LEO satellites using PHITS"
+  venue: "Radiation Physics and Chemistry, 248, 114076"
+  doi: "10.1016/j.radphyschem.2026.114076"
+- number: 64
+  year: 2026
+  type: Journal article
+  title: "Optimization of proton radiation shielding using multilayer concrete-iron-polyethylene barriers: A PHITS Monte Carlo study"
+  venue: "Radiation Physics and Chemistry, 240, 113422"
+  doi: "10.1016/j.radphyschem.2025.113422"
+- number: 63
+  year: 2026
+  type: Journal article
+  title: "Beyond TG-43: A PRISMA-based systematic review on model-based dose-calculation algorithms in brachytherapy"
+  venue: "Journal of Applied Clinical Medical Physics, 27, e70627"
+  doi: "10.1002/acm2.70627"
+- number: 62
+  year: 2026
+  type: Journal article
+  title: "Rectal cancer radiotherapy planning in Vietnam: A multi-center dosimetric and radiobiological study"
+  venue: "Radiation Physics and Chemistry, 244, 113780"
+  doi: "10.1016/j.radphyschem.2026.113780"
+- number: 61
+  year: 2025
+  type: Journal article
+  title: "From standard to stratified: Modeling NTCP and EAR to personalize daily MV-CBCT in radiotherapy"
+  venue: "Journal of Applied Clinical Medical Physics, 26, e70414"
+  doi: "10.1002/acm2.70414"
+- number: 60
+  year: 2025
+  type: Journal article
+  title: "Hippocampal-avoidance whole-brain radiotherapy: Dosimetric comparison of 3D-CRT, IMRT, and VMAT for brain metastases from lung cancer"
+  venue: "Cancers, 17, 3744"
+  doi: "10.3390/cancers17233744"
+- number: 59
+  year: 2026
+  type: Journal article
+  title: "Hybrid quantum-classical convolutional neural networks for multiclass lung X-ray image classification"
+  venue: "Journal of Radiation Research and Applied Sciences, 19, 102165"
+  doi: "10.1016/j.jrras.2026.102165"
+- number: 58
+  year: 2026
+  type: Journal article
+  title: "Evaluation of the Lawson criterion for aneutronic proton-boron-11 fusion: Effects of ion temperature and bremsstrahlung losses"
+  venue: "Frontiers in Nuclear Engineering, 5, 1714531"
+  doi: "10.3389/fnuen.2026.1714531"
+- number: 57
+  year: 2026
+  type: Journal article
+  title: "Assessment of occupational exposure and safety for customs and border protection personnel in Saudi Arabia"
+  venue: "Radiation Physics and Chemistry, 245, 113887"
+  doi: "10.1016/j.radphyschem.2026.113887"
+- number: 56
+  year: 2026
+  type: Journal article
+  title: "Quantum convolutional neural network for MRI brain tumor analysis: Binary and multiclass classification using a four-qubit architecture"
+  venue: "Radiation Physics and Chemistry, 242, 113545"
+  doi: "10.1016/j.radphyschem.2025.113545"
+- number: 55
+  year: 2025
+  type: Journal article
+  title: "A proof-of-concept study of personalized dosimetry for targeted radioligand therapy using pre-treatment diagnostic dynamic PET/CT and Monte Carlo simulation"
+  venue: "Frontiers in Oncology, 15, 1600821"
+  doi: "10.3389/fonc.2025.1600821"
+- number: 54
+  year: 2025
+  type: Journal article
+  title: "Novel validation of HDR brachytherapy dosimetry for cervical cancer using egs brachy Monte Carlo simulations: A comparative analysis with Oncentra treatment planning system"
+  venue: "Journal of Applied Clinical Medical Physics, 26(7), e70144"
+  doi: "10.1002/acm2.70144"
+- number: 53
+  year: 2025
+  type: Journal article
+  title: "Application of volumetric modulated arc therapy (VMAT) for craniospinal irradiation: Dosimetric analysis and clinical implementation"
+  venue: "Radiation Physics and Chemistry, 236, 112965"
+  doi: "10.1016/j.radphyschem.2025.112965"
+- number: 52
+  year: 2025
+  type: Journal article
+  title: "Assessing efficacy and toxicity in rectal cancer radiotherapy: A comparative study of two fractionation regimens"
+  venue: "Oncologie, 27(4), 509-518"
+  doi: "10.1515/oncologie-2025-0037"
+- number: 51
+  year: 2025
+  type: Journal article
+  title: "Assessment of proton shielding properties of rare earth metal-concrete using PHITS Monte Carlo code"
+  venue: "Radiation Physics and Chemistry, 236, 112908"
+  doi: "10.1016/j.radphyschem.2025.112908"
+- number: 50
+  year: 2025
+  type: Journal article
+  title: "Impact of radiobiological parameters on tumor control probability in rectal cancer using the Poisson linear quadratic model"
+  venue: "Radiation Physics and Chemistry, 236, 112902"
+  doi: "10.1016/j.radphyschem.2025.112902"
+- number: 49
+  year: 2025
+  type: Journal article
+  title: "Enhancing patient positioning accuracy: Evaluating daily cone beam computed tomography in the Halcyon system"
+  venue: "Japanese Journal of Clinical Oncology, 55(8), 925-932"
+  doi: "10.1093/jjco/hyaf067"
+- number: 48
+  year: 2025
+  type: Journal article
+  title: "Dosimetric validation of Elekta Synergy 6 MV and 10 MV photon beam models in the Monaco"
+  venue: "Radiation Physics and Chemistry, 236, 112819"
+  doi: "10.1016/j.radphyschem.2025.112819"
+- number: 47
+  year: 2025
+  type: Journal article
+  title: "A comparative dosimetric evaluation of dynamic conformal arc therapy and volumetric modulated arc therapy for lung stereotactic body radiotherapy"
+  venue: "Nuclear Engineering and Technology, 57(4), 103311"
+  doi: "10.1016/j.net.2024.11.013"
+- number: 46
+  year: 2025
+  type: Journal article
+  title: "Scanning protocol influence on relative electron density-CT number calibrations and radiotherapy dose calculation for a Halcyon linac"
+  venue: "Radiation Physics and Chemistry, 236, 112760"
+  doi: "10.1016/j.radphyschem.2025.112760"
+- number: 45
+  year: 2025
+  type: Journal article
+  title: "Dosimetric analysis of beam number variations in IMRT for head-and-neck, breast, and pelvic cancers using Halcyon"
+  venue: "Radiation Physics and Chemistry, 236, 112755"
+  doi: "10.1016/j.radphyschem.2025.112755"
+- number: 44
+  year: 2025
+  type: Journal article
+  title: "Evaluation of multi-leaf collimator accuracy in Halcyon system using logfile analysis"
+  venue: "Radiation Physics and Chemistry, 236, 112741"
+  doi: "10.1016/j.radphyschem.2025.112741"
+- number: 43
+  year: 2025
+  type: Journal article
+  title: "Improving radiotherapy precision through MLC model optimization for a Monaco treatment planning system"
+  venue: "Radiation Physics and Chemistry, 236, 112730"
+  doi: "10.1016/j.radphyschem.2025.112730"
+- number: 42
+  year: 2025
+  type: Journal article
+  title: "Optimizing intensity-modulated radiation therapy for stage II nasopharyngeal cancer: A comparative study of 7-field and 9-field treatment plans"
+  venue: "Radiation Physics and Chemistry, 236, 112700"
+  doi: "10.1016/j.radphyschem.2025.112700"
+- number: 41
+  year: 2025
+  type: Journal article
+  title: "Examining beam matching in the commissioning of a Halcyon accelerator"
+  venue: "Nuclear Science and Engineering, 199(2), 314-324"
+  doi: "10.1080/00295639.2024.2366733"
+- number: 40
+  year: 2024
+  type: Conference abstract
+  title: "Combining targeted radionuclide therapy with external beam radiotherapy for prostate cancer: A dosimetric and radiobiological simulation study"
+  venue: "Journal of Nuclear Medicine, SNMMI Annual Meeting Abstracts, abstract 242528"
+- number: 39
+  year: 2024
+  type: Conference abstract
+  title: "Personalized dosimetry for targeted radionuclide therapy: Predicting absorbed dose from a single diagnostic dynamic PET study using graphical analysis and Monte Carlo simulation"
+  venue: "Journal of Nuclear Medicine, SNMMI Annual Meeting Abstracts, abstract 242470"
+- number: 38
+  year: 2024
+  type: Conference abstract
+  title: "Micro vs clinical scale dosimetry of alpha particle targeted radionuclide therapy - comparison of absorbed dose and DNA damage"
+  venue: "Journal of Nuclear Medicine, SNMMI Annual Meeting Abstracts, abstract 242227"
+- number: 37
+  year: 2024
+  type: Journal article
+  title: "A user-friendly deep learning application for accurate lung cancer diagnosis"
+  venue: "Journal of X-Ray Science and Technology, 32(3), 611-622"
+  doi: "10.3233/XST-230255"
+- number: 36
+  year: 2023
+  type: Journal article
+  title: "An open-source software for calculating 1D gamma index in radiation therapy"
+  venue: "Journal of King Saud University - Science, 35(10), 102937"
+  doi: "10.1016/j.jksus.2023.102937"
+- number: 35
+  year: 2023
+  type: Journal article
+  title: "Dosimetric and radiobiological comparison between conventional and hypofractionated breast treatment plans using the Halcyon system"
+  venue: "Frontiers in Oncology, 13, 1259416"
+  doi: "10.3389/fonc.2023.1259416"
+- number: 34
+  year: 2023
+  type: Journal article
+  title: "The design and construction of a 12-channel electrocardiogram device developed on an ADS1293 chip platform"
+  venue: "Electronics, 12(11), 2389"
+  doi: "10.3390/electronics12112389"
+- number: 33
+  year: 2023
+  type: Journal article
+  title: "Assessment of radiation exposure in a nuclear medicine department of an oncology hospital"
+  venue: "Journal of Radiation Research and Applied Sciences, 16(2), 100564"
+  doi: "10.1016/j.jrras.2023.100564"
+- number: 32
+  year: 2023
+  type: Journal article
+  title: "Evaluation of patients' and occupational radiation risk dose during conventional and interventional radiology procedures"
+  venue: "Radiation Physics and Chemistry, 207, 110818"
+  doi: "10.1016/j.radphyschem.2023.110818"
+- number: 31
+  year: 2022
+  type: Journal article
+  title: "Assessment of the effective radiation dose and radiogenic effect in intravenous urography imaging procedures"
+  venue: "Radiation Physics and Chemistry, 200, 110351"
+  doi: "10.1016/j.radphyschem.2022.110351"
+- number: 30
+  year: 2022
+  type: Journal article
+  title: "Evaluation of paediatric computed tomography imaging for brain and abdomen procedures"
+  venue: "Radiation Physics and Chemistry, 200, 110271"
+  doi: "10.1016/j.radphyschem.2022.110271"
+- number: 29
+  year: 2022
+  type: Journal article
+  title: "Determination of Fe and Tb concentrations in geological and environmental samples using instrumental neutron activation analysis combined with the gamma-gamma coincidence technique"
+  venue: "Radiation Physics and Chemistry, 200, 110203"
+  doi: "10.1016/j.radphyschem.2022.110203"
+- number: 28
+  year: 2022
+  type: Journal article
+  title: "Dosimetric and radiobiological comparison in head-and-neck radiotherapy using JO-IMRT and 3D-CRT"
+  venue: "Saudi Journal of Biological Sciences, 29(8), 103336"
+  doi: "10.1016/j.sjbs.2022.103336"
+- number: 27
+  year: 2021
+  type: Journal article
+  title: "Measurement of neutron dose equivalent within and outside of a linac treatment vault using a neutron survey meter"
+  venue: "Quantum Beam Science, 5(4), 33"
+  doi: "10.3390/qubs5040033"
+- number: 26
+  year: 2022
+  type: Journal article
+  title: "Elimination of biological and physical artifacts in abdomen and brain computed tomography procedures using filtering techniques"
+  venue: "Saudi Journal of Biological Sciences, 29(4), 2180-2186"
+  doi: "10.1016/j.sjbs.2021.11.043"
+- number: 25
+  year: 2021
+  type: Journal article
+  title: "A comparison of the JO-IMRT dose distribution calculated by the SOURCE 8 and 20 in the DOSXYZnrc for head-and-neck cancer"
+  venue: "International Journal of Radiation Research, 19(4), 853-860"
+  doi: "10.52547/ijrr.19.4.11"
+- number: 24
+  year: 2021
+  type: Journal article
+  title: "Calculation of jaws-only IMRT dose distributions based on the AAPM TG-119 test cases using Monte Carlo simulation and Prowess Panther treatment planning system"
+  venue: "Nuclear Engineering and Technology, 53(12), 4098-4105"
+  doi: "10.1016/j.net.2021.07.005"
+- number: 23
+  year: 2021
+  type: Journal article
+  title: "Application of artificial neural network in neutron/gamma pulse-shape discrimination for EJ301 scintillation detector"
+  venue: "Science and Technology Development Journal - Engineering and Technology, 4(2), 910-919"
+  doi: "10.32508/stdjet.v4i2.803"
+- number: 22
+  year: 2021
+  type: Journal article
+  title: "Application of AAPM TG119 to evaluate the intensity-modulated radiotherapy (JO-IMRT) plan on the Prowess Panther treatment planning system"
+  venue: "Science and Technology Development Journal - Engineering and Technology - Natural Science, 5(2), 1239-1244"
+  doi: "10.32508/stdjns.v5i2.979"
+- number: 21
+  year: 2020
+  type: Journal article
+  title: "Monte Carlo evaluation of air cavity and small field effects in JO-IMRT dose distributions on patients with head and neck cancer"
+  venue: "Journal of Clinical Medicine Hue Central Hospital, 66, 50-55"
+  doi: "10.38103/jcmhch.2020.66.8"
+- number: 20
+  year: 2022
+  type: Journal article
+  title: "Dosimetric comparison of intensity modulated radiation therapy (IMRT) and field-in-field (FIF) technique for head-and-neck cancer"
+  venue: "Journal of Radiotherapy Practice, 21(2), 153-158"
+  doi: "10.1017/S1460396920000977"
+- number: 19
+  year: 2019
+  type: Journal article
+  title: "Dosimetric evaluation of lung treatment plans produced by the Prowess Panther system using Monte Carlo simulation"
+  venue: "Biomedical Physics & Engineering Express, 5(5), 055005"
+  doi: "10.1088/2057-1976/ab367d"
+- number: 18
+  year: 2019
+  type: Journal article
+  title: "Application of variance reduction techniques in EGSnrc based Monte-Carlo method"
+  venue: "Science and Technology Development Journal, 22(2), 258-263"
+  doi: "10.32508/stdj.v22i2.1234"
+- number: 17
+  year: 2019
+  type: Journal article
+  title: "Dosimetric and Monte Carlo verification of jaws-only IMRT plans calculated by the Collapsed Cone Convolution algorithm for head and neck cancers"
+  venue: "Reports of Practical Oncology and Radiotherapy, 24(1), 105-114"
+  doi: "10.1016/j.rpor.2018.11.004"
+- number: 16
+  year: 2019
+  type: Conference abstract
+  title: "Dosimetric verification of jaw-only IMRT on Prowess Panther system based on AAPM TG-119: A Monte Carlo study"
+  venue: "Medical Physics, 46(6), E618-E619"
+- number: 15
+  year: 2019
+  type: Journal article
+  title: "Verifying the accuracy of 3D-CRT dose distributions based on the Prowess Panther treatment planning system with Monte Carlo simulation for head-and-neck patients"
+  venue: "Science and Technology Development Journal, 3(2), 90-99"
+  doi: "10.32508/stdjns.v3i2.518"
+- number: 14
+  year: 2018
+  type: Journal article
+  title: "Evaluation of jaws-only intensity modulated radiation therapy treatment plans using Octavius 4D system"
+  venue: "Polish Journal of Medical Physics and Engineering, 24(2), 75-78"
+  doi: "10.2478/pjmpe-2018-0010"
+- number: 13
+  year: 2018
+  type: Conference abstract
+  title: "Monte Carlo verification of jaws-only IMRT dose distributions from Prowess Panther system on Octavius 4D phantom"
+  venue: "Medical Physics, 45(6), E292"
+- number: 12
+  year: 2018
+  type: Journal article
+  title: "Absorbed dose determination for high energy photon of Primus linear accelerator using the international code of practice on dosimetry in radiotherapy (TRS 398) in Dong Nai General Hospital"
+  venue: "Dong Nai University Journal of Science, 9, 130-137"
+- number: 11
+  year: 2017
+  type: Journal article
+  title: "Quality assurance of the jaws-only intensity-modulated radiation therapy plans for head-and-neck cancer"
+  venue: "Physica Medica, 38, 148-152"
+  doi: "10.1016/j.ejmp.2017.05.059"
+- number: 10
+  year: 2017
+  type: Proceedings paper
+  title: "A method for determination of parameters of the initial electron beam hitting the target in LINAC"
+  venue: "Journal of Physics: Conference Series, 851, 012032"
+  doi: "10.1088/1742-6596/851/1/012032"
+- number: 9
+  year: 2018
+  type: Proceedings paper
+  title: "Initial experiences of applying the jaws-only IMRT technique in Dong Nai General Hospital, Vietnam"
+  venue: "IFMBE Proceedings, 63, 335-339"
+  doi: "10.1007/978-981-10-4361-1_56"
+- number: 8
+  year: 2017
+  type: Journal article
+  title: "Evaluation and comparison of dose distributions for nasopharyngeal carcinoma patients treated by jaws-only IMRT technique and by 3D-CRT technique at Dong Nai General Hospital"
+  venue: "Science and Technology Development Journal, 20(4), 79-87"
+  doi: "10.32508/stdjns.v1iT4.486"
+- number: 7
+  year: 2017
+  type: Journal article
+  title: "Evaluating the impact of tissue heterogeneity corrections in a commercial treatment planning system (TPS), Prowess Panther with non-IMRT techniques"
+  venue: "International Journal of Radiology, 4(1), 124-127"
+- number: 6
+  year: 2017
+  type: Journal article
+  title: "The verification of the monitor unit calculations"
+  venue: "Cancer Therapy and Oncology International Journal, 3(4), 555616"
+- number: 5
+  year: 2018
+  type: Journal article
+  title: "The simulation of linear accelerator by using Monte Carlo code EGSnrc"
+  venue: "Science and Technology Development Journal, 2(4), 103-111"
+  doi: "10.32508/stdjns.v2i4.817"
+- number: 4
+  year: 2018
+  type: Journal article
+  title: "Method for calculation absolute dose in Monte Carlo simulation"
+  venue: "Science and Technology Development Journal, 2(5), 90-96"
+  doi: "10.32508/stdj.v2i5.783"
+- number: 3
+  year: 2017
+  type: Journal article
+  title: "Application of 3D-conformal radiotherapy in Dong Nai General Hospital"
+  venue: "Dong Nai University Journal of Science, 4, 133-143"
+- number: 2
+  year: 2016
+  type: Conference abstract
+  title: "Quality control of the jaws-only IMRT plans for head-and-neck cancer"
+  venue: "Medical Physics International Journal, 2(4), 304a"
+- number: 1
+  year: 2016
+  type: Conference abstract
+  title: "The simulation of linear accelerator by using Monte Carlo code EGSnrc"
+  venue: "Medical Physics International Journal, 2(4), 304b"
