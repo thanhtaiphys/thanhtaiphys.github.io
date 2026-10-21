@@ -8,6 +8,8 @@ description: "Research by Thanh-Tai Duong in radiation therapy physics, quantita
 
 My research connects **clinical medical physics** with computational modeling and translational cancer science. I am especially interested in methods that can move from a simulation, a commissioning test, or an imaging study into a workflow that can be evaluated rigorously in a clinical environment.
 
+This profile represents **Thanh Tai Duong**, also published as **Thanh-Tai Duong** and **Duong Thanh Tai**. My work spans therapeutic medical physics, radiation therapy, medical imaging, Monte Carlo dosimetry, and radiotheranostics. See the [complete publications](/publications/) and [curriculum vitae](/cv/) for source-backed details.
+
 ## Current directions
 
 ### Personalized radiotheranostics
