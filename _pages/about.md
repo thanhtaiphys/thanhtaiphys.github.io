@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-author_profile: true
+author_profile: false
 description: "Academic profile of Thanh Tai Duong (published as Thanh-Tai Duong), Ph.D., a therapeutic medical physicist and researcher in radiation therapy, imaging, Monte Carlo dosimetry, and radiotheranostics."
 excerpt: "Academic profile of Thanh Tai Duong (published as Thanh-Tai Duong), Ph.D., a therapeutic medical physicist and researcher in radiation therapy, imaging, Monte Carlo dosimetry, and radiotheranostics."
 ---
@@ -31,7 +31,7 @@ excerpt: "Academic profile of Thanh Tai Duong (published as Thanh-Tai Duong), Ph
     <span class="signal-number">2009</span>
     <span class="signal-label">year clinical and academic work began</span>
     <span class="signal-number">67</span>
-    <span class="signal-label">publication records listed in the current CV</span>
+    <span class="signal-label">publication records in the complete online bibliography</span>
   </div>
 </section>
 

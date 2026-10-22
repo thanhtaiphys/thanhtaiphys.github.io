@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+<p class="cv-note">Profile details are current as of October 2026. Licensing, appointments, and editorial roles are time-sensitive and should be reviewed periodically.</p>
+
 ## Education
 
 - **Ph.D. in Medical Physics**, VNUHCM–University of Science, Vietnam · 2015–2019
@@ -66,10 +68,12 @@ International Centre for Theoretical Physics (ICTP) · International Atomic Ener
 <p><a class="btn btn--primary" href="/files/01_Duong_CV.pdf">Download current CV (PDF)</a></p>
 <p><a class="btn btn--inverse" href="/files/thanh-tai-duong-academic-profile.pdf">Download two-page academic profile (PDF)</a></p>
 
-## Publications and presentations
+## Selected publication pages
+
+The complete online bibliography contains 67 publication records. This CV page highlights the 12 records with dedicated publication pages; use the bibliography to browse the full record set.
 
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-<p><a class="btn btn--primary" href="/publications/">Browse selected publications →</a></p>
+<p><a class="btn btn--primary" href="/publications/">Browse complete bibliography (67 records) →</a></p>
