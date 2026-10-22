@@ -6,17 +6,28 @@ author_profile: true
 description: "Selected and complete publication records for Thanh-Tai Duong, Ph.D., across medical physics, radiation therapy, imaging, dosimetry, and related radiation science."
 ---
 
+<div class="publication-tools" aria-label="Publication filters">
+  <label for="publication-search">Search publications</label>
+  <input id="publication-search" type="search" placeholder="Title, journal, or year" autocomplete="off">
+  <label for="publication-year">Filter by year</label>
+  <select id="publication-year">
+    <option value="all">All years</option>
+  </select>
+  <p id="publication-count" class="publication-count" aria-live="polite"></p>
+</div>
+
 {% assign publication_types = "Journal article|Conference abstract|Proceedings paper" | split: "|" %}
 {% assign publication_headings = "Journal Articles|Conference Abstracts|Proceedings Papers" | split: "|" %}
 
 {% for type in publication_types %}
   {% assign heading_index = forloop.index0 %}
-  <h2>{{ publication_headings[heading_index] }}</h2><hr />
+  <section class="publication-group" data-publication-group>
+  <h2 class="publication-heading">{{ publication_headings[heading_index] }}</h2><hr />
   {% for item in site.data.publications_full %}
     {% if item.type != type %}
       {% continue %}
     {% endif %}
-    <article class="archive__item" id="publication-{{ item.number }}">
+    <article class="archive__item" id="publication-{{ item.number }}" data-publication data-year="{{ item.year }}" data-search="{{ item.title | append: ' ' | append: item.venue | append: ' ' | append: item.year | downcase | escape }}">
       <h3 class="archive__item-title">
         {% if item.doi %}<a href="https://doi.org/{{ item.doi }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
       </h3>
@@ -25,7 +36,40 @@ description: "Selected and complete publication records for Thanh-Tai Duong, Ph.
       {% if item.doi %}<p><a href="https://doi.org/{{ item.doi }}">View paper record via DOI</a></p>{% endif %}
     </article>
   {% endfor %}
+  </section>
 {% endfor %}
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const search = document.getElementById('publication-search');
+    const year = document.getElementById('publication-year');
+    const count = document.getElementById('publication-count');
+    const items = Array.from(document.querySelectorAll('[data-publication]'));
+    const groups = Array.from(document.querySelectorAll('[data-publication-group]'));
+    const years = [...new Set(items.map((item) => item.dataset.year).filter(Boolean))].sort((a, b) => b - a);
+    years.forEach((value) => year.insertAdjacentHTML('beforeend', '<option value="' + value + '">' + value + '</option>'));
+
+    function updatePublications() {
+      const query = search.value.trim().toLowerCase();
+      const selectedYear = year.value;
+      let visible = 0;
+      items.forEach((item) => {
+        const matchesText = !query || item.dataset.search.includes(query);
+        const matchesYear = selectedYear === 'all' || item.dataset.year === selectedYear;
+        const show = matchesText && matchesYear;
+        item.hidden = !show;
+        if (show) visible += 1;
+      });
+      groups.forEach((group) => {
+        group.hidden = !group.querySelector('[data-publication]:not([hidden])');
+      });
+      count.textContent = visible + (visible === 1 ? ' publication shown' : ' publications shown');
+    }
+
+    search.addEventListener('input', updatePublications);
+    year.addEventListener('change', updatePublications);
+    updatePublications();
+  });
+</script>
 
 

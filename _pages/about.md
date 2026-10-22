@@ -34,6 +34,21 @@ excerpt: "Academic profile of Thanh Tai Duong (published as Thanh-Tai Duong), Ph
   </div>
 </section>
 
+<section class="role-strip" aria-label="Current and previous positions">
+  <div>
+    <p class="section-kicker">CURRENT ROLE</p>
+    <h2>Clinical physics in Iowa</h2>
+    <p>Medical Physicist with Jaeger Corporation / Spencer Hospital, supporting therapeutic radiation physics, QA, imaging, and treatment planning.</p>
+    <a href="/clinical-experience/">View clinical experience</a>
+  </div>
+  <div>
+    <p class="section-kicker">CAREER FOUNDATION</p>
+    <h2>Research and teaching across institutions</h2>
+    <p>Research Associate at Western University and lecturer at Nguyen Tat Thanh University, with earlier clinical and academic work in Vietnam and Canada.</p>
+    <a href="/cv/">View appointments in CV</a>
+  </div>
+</section>
+
 <section class="focus-section">
   <p class="section-kicker">RESEARCH FOCUS</p>
   <h2>Four connected themes</h2>

@@ -10,6 +10,11 @@
 .hero-actions .btn { border-radius: 999px; }
 .btn--primary { background: #167d80; border-color: #167d80; }
 .intro-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(220px, .6fr); gap: 3rem; align-items: center; padding: 3.6rem 0; }
+.role-strip { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; padding: 0 0 3.6rem; }
+.role-strip > div { padding: 1.35rem; border: 1px solid rgba(28, 55, 67, .14); border-top: 4px solid #167d80; background: rgba(255,255,255,.48); }
+.role-strip h2 { margin: .35rem 0 .5rem; font-size: 1.35rem; }
+.role-strip p:not(.section-kicker) { color: #53656b; }
+.role-strip a { color: #167d80; font-weight: 800; }
 .intro-grid h2, .focus-section h2, .closing-cta h2 { font-size: 2rem; letter-spacing: -.025em; }
 .signal-card { display: grid; grid-template-columns: auto 1fr; gap: .25rem 1rem; padding: 1.7rem; border-left: 4px solid #e5a84b; background: rgba(255,255,255,.62); box-shadow: 0 12px 36px rgba(20, 49, 59, .08); }
 .signal-number { color: #167d80; font-size: 2.5rem; font-weight: 800; line-height: 1; }
@@ -35,4 +40,9 @@
 .archive__item-title { line-height: 1.2; }
 .archive__item-title a { text-decoration-thickness: .08em; text-underline-offset: .12em; }
 .archive__item p { margin-bottom: .55rem; }
-@media (max-width: 700px) { .intro-grid, .focus-grid { grid-template-columns: 1fr; } .profile-hero { padding-top: 1rem; } .hero-lede { font-size: 1.08rem; } }
+.publication-tools { display: grid; grid-template-columns: minmax(180px, 1fr) minmax(150px, .45fr); gap: .4rem .8rem; margin: 0 0 2rem; padding: 1rem 1.15rem; border-left: 4px solid #e5a84b; background: rgba(229,168,75,.12); }
+.publication-tools label { color: #17343c; font-size: .82rem; font-weight: 800; }
+.publication-tools input, .publication-tools select { min-height: 2.5rem; padding: .45rem .65rem; border: 1px solid rgba(28, 55, 67, .25); border-radius: 5px; background: #fff; }
+.publication-count { grid-column: 1 / -1; margin: .25rem 0 0; color: #53656b; font-size: .84rem; }
+.publication-group[hidden] { display: none; }
+@media (max-width: 700px) { .intro-grid, .focus-grid, .role-strip, .publication-tools { grid-template-columns: 1fr; } .profile-hero { padding-top: 1rem; } .hero-lede { font-size: 1.08rem; } .publication-count { grid-column: auto; } }

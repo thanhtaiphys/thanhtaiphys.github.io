@@ -64,6 +64,7 @@ International Centre for Theoretical Physics (ICTP) · International Atomic Ener
 ## Download the full CV
 
 <p><a class="btn btn--primary" href="/files/01_Duong_CV.pdf">Download current CV (PDF)</a></p>
+<p><a class="btn btn--inverse" href="/files/thanh-tai-duong-academic-profile.pdf">Download two-page academic profile (PDF)</a></p>
 
 ## Publications and presentations
 
