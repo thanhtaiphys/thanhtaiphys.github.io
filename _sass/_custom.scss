@@ -1,6 +1,5 @@
 /* Thanh-Tai Duong profile layer: editorial, calm, and research-forward. */
-.profile-hero { position: relative; padding: 3.2rem 270px 3.8rem 0; border-bottom: 1px solid rgba(28, 55, 67, .16); }
-.profile-hero__portrait { position: absolute; top: 3.2rem; right: 0; width: 220px; aspect-ratio: 1; object-fit: cover; border: 6px solid rgba(255,255,255,.8); border-radius: 18px; box-shadow: 0 16px 36px rgba(20, 49, 59, .16); }
+.profile-hero { padding: 3.2rem 0 3.8rem; border-bottom: 1px solid rgba(28, 55, 67, .16); }
 .profile-hero h1 { max-width: 820px; margin: .4rem 0 1.25rem; font-size: clamp(2.5rem, 6vw, 5.3rem); line-height: .98; letter-spacing: -.045em; }
 .eyebrow, .section-kicker { color: #167d80; font-size: .75rem; font-weight: 800; letter-spacing: .16em; }
 .hero-role { margin: .5rem 0 0; color: #17343c; font-size: 1.25rem; font-weight: 700; }
@@ -47,4 +46,4 @@
 .publication-tools input, .publication-tools select { min-height: 2.5rem; padding: .45rem .65rem; border: 1px solid rgba(28, 55, 67, .25); border-radius: 5px; background: #fff; }
 .publication-count { grid-column: 1 / -1; margin: .25rem 0 0; color: #53656b; font-size: .84rem; }
 .publication-group[hidden] { display: none; }
-@media (max-width: 700px) { .intro-grid, .focus-grid, .role-strip, .publication-tools { grid-template-columns: 1fr; } .profile-hero { padding: 1rem 0 2.8rem; } .profile-hero__portrait { position: static; display: block; width: min(220px, 65vw); margin: 0 auto 1.6rem; } .hero-lede { font-size: 1.08rem; } .publication-count { grid-column: auto; } }
+@media (max-width: 700px) { .intro-grid, .focus-grid, .role-strip, .publication-tools { grid-template-columns: 1fr; } .profile-hero { padding-top: 1rem; } .hero-lede { font-size: 1.08rem; } .publication-count { grid-column: auto; } }

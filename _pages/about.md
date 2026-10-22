@@ -1,13 +1,12 @@
 ---
 permalink: /
 title: ""
-author_profile: false
+author_profile: true
 description: "Academic profile of Thanh Tai Duong (published as Thanh-Tai Duong), Ph.D., a therapeutic medical physicist and researcher in radiation therapy, imaging, Monte Carlo dosimetry, and radiotheranostics."
 excerpt: "Academic profile of Thanh Tai Duong (published as Thanh-Tai Duong), Ph.D., a therapeutic medical physicist and researcher in radiation therapy, imaging, Monte Carlo dosimetry, and radiotheranostics."
 ---
 
 <section class="profile-hero">
-  <img class="profile-hero__portrait" src="/images/thanh-tai-duong-profile.png" alt="Thanh-Tai Duong, Ph.D., therapeutic medical physicist and researcher" fetchpriority="high" />
   <p class="eyebrow">THANH-TAI DUONG, PH.D.</p>
   <p class="hero-role">Therapeutic Medical Physicist · Researcher · Lecturer</p>
   <p class="hero-affiliations">Spencer Hospital · Western University · Nguyen Tat Thanh University</p>
